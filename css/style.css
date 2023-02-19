@@ -48,9 +48,12 @@
     margin-left: 35px;
     width: 20%;
     padding: 10px;
-    border: 1px solid white;
     border-radius: 8px;   
-    
+    transition: transform .5s;
+}
+
+.imagenes-bienvenida:hover{
+    transform: scale(1.5);
 }
 
 .texto-bienvenida{
