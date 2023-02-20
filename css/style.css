@@ -5,43 +5,49 @@
 }
 
 /* Header */
+.encabezado{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    align-content: space-between;
+    flex-basis: 100%;
+}
+
 .nombre-principal1{
     color: blueviolet;
     font-size: 48;
-    padding: 5px;
+    padding: 50px;
     margin: 5px 10px 10px 15px;
-    display: inline-block;
-    justify-content: left;
+    
 
 
-}
-.nombre-principal2{
-    color: blueviolet;
-    font-size: 48;
-    padding: 5px;
-    margin: 5px 10px 10px 15px;
-    display: inline-block;
-    justify-content: inherit;
 }
 
 .icono-principal{
-    padding: 5px;
-    width: 200px;
-    display: inline-block;
-    justify-content: right;
-    margin: 0px 15px 10px 300px;
+    padding: 50px;
+    margin: 5px 10px 10px 15px;
 }
 
 .botones-web{
+    padding: 50px;
     color: blueviolet;
     font-size: 24;
-    display: inline-block;
-    justify-content: center;
-    margin: 5px 150px 100px 150px;
+    display: flex;
+    margin: 50px 50px 10px 50px;
     
 }
 
+
+
+
 /* Index - Inicio */
+
+.box-imagenes{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+
 
 .imagenes-bienvenida{
     margin: auto;
@@ -61,16 +67,19 @@
     color: black;
     text-align: center;
     font-size: 16;
-
+    height: 100px;
 }
 
 .texto-cierre{
-    margin: auto;
+    margin: 50px;
     color: black;
     text-align: center;
     font-size: 19;
     font-weight: bold;
+    height: 100px;
 }
+
+
 
 /* Novedades */
 
@@ -165,13 +174,14 @@
     font-size: 32;
     font-weight: bold;
     margin-bottom: 25px;
+    height: 50px;
 }
 .sn-parrafo{
     margin: auto;
     color: black;
     text-align: center;
     font-size: 25;
-    font-weight: normal;
+    font-weight: normal;    
 }
 
 .sn-imagen{
@@ -194,16 +204,17 @@
     font-size: 20;
     font-weight: bold;
     margin-bottom: 50px;
+    height: 150px;
 }
 
 .Google-mapa{
-    margin-left: 200px;
+    margin-left: 400px;
     display: inline-block;
     justify-content: left;
 }
 
 .elementos-contacto{
-    margin-left: 50px;
+    margin-left: 50px;    
     display: inline-block;
     justify-content: right;
 }
@@ -264,4 +275,10 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+
+
+@media (min-width: 600px) {
+    
 }
