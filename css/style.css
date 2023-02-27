@@ -278,7 +278,53 @@
 }
 
 
+/* Media Query - Mobile Smartphone */
+@media (max-width: 576px){
 
-@media (min-width: 600px) {
+    /* Index - Inicio */
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: auto;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .box-imagenes{
+        display: flex;
+        flex-direction: column;
+        margin: 15px 15px 15px 15px;
+        width: 50%;
+
+    }
+
+    .imagenes-bienvenida{
+        width: 80%;
+        margin-left: 100px;
+    }
+    .texto-bienvenida{
+        margin-bottom: 50px;
+    }
+    .texto-cierre{
+        margin: 15px 15px 15px 15px;
+        
+    }
+    
+    .footer{
+        display: none;
+        width: 75%;
+        font-size: 13;
+        text-align: end;
+    
+    }
+    /* RSD */
+    .rsd-parrafo{
+        margin: 15px 15px 15px 15px;
+        font-size: 14;
+    }
     
 }
