@@ -7,33 +7,38 @@
 /* Header */
 .encabezado{
     display: flex;
-    flex-wrap: nowrap;
-    height: 300px;
-    align-content: space-between;
-    flex-basis: 100%;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    
 }
 
 .nombre-principal1{
+    flex: 1;
     color: blueviolet;
     font-size: 48;
     padding: 50px;
-    margin: 5px 10px 10px 15px;
+    margin: 5px 10px 10px 40px;
     
 
 
 }
 
 .icono-principal{
-    padding: 50px;
-    margin: 5px 10px 10px 15px;
+    flex: none;
+    display: flex;
+    width: 60%;
+    padding: 0px;
+    margin: 0px 10px 10px 55px;
 }
 
 .botones-web{
-    padding: 50px;
+    flex: auto;
+    padding: 5px;
     color: blueviolet;
     font-size: 24;
     display: flex;
-    margin: 50px 50px 10px 50px;
+    margin: 50px 50px 10px 10px;
     
 }
 
@@ -84,25 +89,25 @@
 /* Novedades */
 
 .tarjeta-novedades{
-    width: 1200px;
-    margin: 250px;
+    width: 1250px;
+    margin: 50px;
     display: flex;
     align-items: center;    
         
 }
 
 .tarjeta-novedades img{
-    width: 100%;
+    width: 90%;
     border-radius: 15px;
-    align-items: left;
+    
 }
 
 .novedades-titulo{
-    margin-left: 15px;
+    margin: 25px 
     
 }
 .novedades-parrafo{
-    margin-left: 15px;
+    margin-left: 50px;
 }
 
 
@@ -285,7 +290,7 @@
     .encabezado{
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 100%;
         height: auto;
     }
 
@@ -294,17 +299,18 @@
         flex-direction: column;
         height: auto;
     }
+    .icono-principal{
+        margin-left: 80px;
+    }
     .box-imagenes{
         display: flex;
-        flex-direction: column;
-        margin: 15px 15px 15px 15px;
+        flex-direction: column;        
         width: 50%;
-
     }
 
     .imagenes-bienvenida{
-        width: 80%;
-        margin-left: 100px;
+        width: 100%;
+        margin-left: 80px;
     }
     .texto-bienvenida{
         margin-bottom: 50px;
@@ -325,6 +331,11 @@
     .rsd-parrafo{
         margin: 15px 15px 15px 15px;
         font-size: 14;
+    }
+    .sn-imagen{
+        margin: 90px;
+        width: 50%;
+        padding: 0px;
     }
     
 }
