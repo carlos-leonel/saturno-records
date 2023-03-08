@@ -1,1 +1,17 @@
-$primary-color: violet;
+
+//General
+@import "./general/typography.scss";
+@import "./general/colors.scss";
+
+
+//Layout
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
+
+//Paginas
+@import "./paginas/contacto.scss";
+@import "./paginas/novedades.scss";
+@import "./paginas/ofertas.scss";
+@import "./paginas/productos.scss";
+@import "./paginas/RSD.scss";
+@import "./paginas/sobre-nosotros.scss";
