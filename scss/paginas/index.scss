@@ -1,0 +1,41 @@
+main{
+    .box-imagenes{
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+
+    .imagenes-bienvenida{
+        margin: auto;
+        margin-left: 35px;
+        width: 20%;
+        padding: 10px;
+        border-radius: 8px;   
+        transition: transform .5s;
+                &:hover{
+
+                    transform: scale(1.5);
+                }
+    }
+
+
+
+    .texto-bienvenida{
+        margin: auto;
+        color: black;
+        text-align: center;
+        font-size: 16;
+        height: 100px;
+    }
+
+    .texto-cierre{
+        margin: 50px;
+        color: black;
+        text-align: center;
+        font-size: 19;
+        font-weight: bold;
+        height: 100px;
+    }
+    
+}

@@ -1,0 +1,40 @@
+main{
+    .contacto-texto{
+        margin: auto;
+        color: black;
+        text-align: center;
+        font-size: 20;
+        font-weight: bold;
+        margin-bottom: 50px;
+        height: 150px;
+    }
+    
+    .Google-mapa{
+        margin-left: 400px;
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .elementos-contacto{
+        margin-left: 50px;    
+        display: inline-block;
+        justify-content: right;
+    }
+    
+    .elementos-direccion img{
+        width: 30px;
+    }
+    
+    .elementos-horario img{
+        width: 30px;
+    }
+    
+    .elementos-wsp img{
+        width: 30px;
+    }
+    
+    .elementos-email img{
+        width: 30px;
+    }
+
+}

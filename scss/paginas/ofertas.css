@@ -1,0 +1,23 @@
+main .tarjeta-oferta {
+  margin-left: 150px;
+  border: 2px solid black; /* borde */
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  display: inline-table;
+}
+main .tarjeta-oferta img {
+  width: 100%;
+  border-radius: 8px;
+}
+main .tarjeta-oferta .precio-anulado {
+  font-size: 20px;
+}
+main .tarjeta-oferta .precio-nuevo {
+  font-size: 25px;
+}
+main .tarjeta-oferta button {
+  background-color: rgba(227, 235, 124, 0.877);
+  color: rgb(12, 7, 7);
+  padding: 12px 20px;
+}/*# sourceMappingURL=ofertas.css.map */

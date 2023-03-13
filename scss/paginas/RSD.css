@@ -1,0 +1,20 @@
+main .rsd-titulo {
+  margin: auto;
+  color: black;
+  text-align: center;
+  font-size: 32;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+main .rsd-parrafo {
+  margin: auto;
+  color: black;
+  text-align: center;
+  font-size: 16;
+  font-weight: normal;
+}
+main .rsd-imagen {
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+}/*# sourceMappingURL=RSD.css.map */

@@ -1,0 +1,16 @@
+main .tarjeta-novedades {
+  width: 1250px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+}
+main .tarjeta-novedades img {
+  width: 90%;
+  border-radius: 15px;
+}
+main .novedades-titulo {
+  margin: 25px;
+}
+main .novedades-parrafo {
+  margin-left: 50px;
+}/*# sourceMappingURL=novedades.css.map */
