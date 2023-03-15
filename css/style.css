@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* Header */
+/* Header - Migrado */
 .encabezado{
     display: flex;
     flex-direction: row;
@@ -45,7 +45,7 @@
 
 
 
-/* Index - Inicio */
+/* Index - Inicio - Migrado con error*/
 
 .box-imagenes{
     display: flex;
@@ -86,7 +86,7 @@
 
 
 
-/* Novedades */
+/* Novedades - Migrado */
 
 .tarjeta-novedades{
     width: 1250px;
@@ -112,7 +112,7 @@
 
 
 
-/* Ofertas */
+/* Ofertas - Migrado*/
 
 .tarjeta-oferta{
     margin-left: 150px;
@@ -145,7 +145,7 @@
 
 
 
-/* RSD */
+/* RSD - Migrado*/
 
 .rsd-titulo{
     margin: auto;
@@ -170,7 +170,7 @@
 
 
 
-/* Sobre Nosotros */
+/* Sobre Nosotros - Migrado */
 
 .sn-titulo{
     margin: auto;
@@ -200,7 +200,7 @@
 }
 
 
-/* Contacto */
+/* Contacto - Migrado*/
 
 .contacto-texto{
     margin: auto;
@@ -270,7 +270,7 @@
 
 
 
-/* Footer */
+/* Footer - Migrado */
 
 .footer{
     color: blueviolet;

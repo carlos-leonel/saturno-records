@@ -20,4 +20,27 @@ main{
     .novedades-parrafo{
         margin-left: 50px;
     }
+    @media (max-width: 576px){
+        
+        .tarjeta-novedades{
+                display: flex;
+                flex-direction: column;
+                width: 35%;
+                padding: none;
+                align-items: center;
+                margin: none;
+            }
+        .tarjeta-novedades img{
+            width: 100%;
+            border-radius: 0%;
+        }
+        .novedades-titulo{
+            margin: auto;
+            text-align: center;
+        }
+        .novedades-parrafo{
+            margin: auto;
+            text-align: center;
+        }
+    }
 }

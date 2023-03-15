@@ -17,9 +17,24 @@ main{
     .rsd-imagen{
         margin: auto;
         width: 10%;
-        padding: 10px;
+        
     }
 
+    @media (max-width: 576px){
+
+        
+        /* RSD */
+        .rsd-parrafo{
+            margin: 15px 15px 15px 15px;
+            font-size: 14;
+        }
+        .sn-imagen{
+            display: none;
+            
+                                    
+        }
+        
+    }
 
 
 }

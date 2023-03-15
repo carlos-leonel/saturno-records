@@ -36,5 +36,21 @@ main{
     .elementos-email img{
         width: 30px;
     }
+    @media (max-width: 576px){
+        
+        .Google-mapa{
+                margin-left: 0px;
+                width: 100%;
+                padding: 50px 50px;
+            }
+        .elementos-contacto{
+            margin-left: 0px;
+            
+        }
+        }
+
+    
+        
+    
 
 }

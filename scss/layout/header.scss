@@ -34,4 +34,30 @@ header{
         margin: 50px 50px 10px 10px;
         
     }
+    @media (max-width: 576px){
+
+        /* Index - Inicio */
+        .encabezado{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+        }
+    
+        .main{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
+        .icono-principal{
+            margin-left: 80px;
+        }
+        .box-imagenes{
+            display: flex;
+            flex-direction: column;        
+            width: 50%;
+        }
+    
+        
+    }
 }

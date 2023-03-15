@@ -38,4 +38,24 @@ main{
         height: 100px;
     }
     
+    @media (max-width: 576px){
+        
+        .box-imagenes{
+            display: flex;
+            flex-direction: column;        
+            width: 50%;
+        }
+    
+        .imagenes-bienvenida{
+            width: 100%;
+            margin-left: 80px;
+        }
+        .texto-bienvenida{
+            margin-bottom: 50px;
+        }
+        .texto-cierre{
+            margin: 15px 15px 15px 15px;
+            
+        }
+    }
 }

@@ -3,9 +3,11 @@ footer {
   font-size: 19;
   font-weight: bold;
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  height: 40px;
+  margin-top: 100px; }
 
 header .encabezado {
   display: flex;
@@ -34,6 +36,25 @@ header .botones-web {
   font-size: 24;
   display: flex;
   margin: 50px 50px 10px 10px; }
+
+@media (max-width: 576px) {
+  header {
+    /* Index - Inicio */ }
+    header .encabezado {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto; }
+    header .main {
+      display: flex;
+      flex-direction: column;
+      height: auto; }
+    header .icono-principal {
+      margin-left: 80px; }
+    header .box-imagenes {
+      display: flex;
+      flex-direction: column;
+      width: 50%; } }
 
 main .contacto-texto {
   margin: auto;
@@ -66,6 +87,14 @@ main .elementos-wsp img {
 main .elementos-email img {
   width: 30px; }
 
+@media (max-width: 576px) {
+  main .Google-mapa {
+    margin-left: 0px;
+    width: 100%;
+    padding: 50px 50px; }
+  main .elementos-contacto {
+    margin-left: 0px; } }
+
 main .tarjeta-novedades {
   width: 1250px;
   margin: 50px;
@@ -82,6 +111,24 @@ main .novedades-titulo {
 main .novedades-parrafo {
   margin-left: 50px; }
 
+@media (max-width: 576px) {
+  main .tarjeta-novedades {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: none;
+    align-items: center;
+    margin: none; }
+  main .tarjeta-novedades img {
+    width: 100%;
+    border-radius: 0%; }
+  main .novedades-titulo {
+    margin: auto;
+    text-align: center; }
+  main .novedades-parrafo {
+    margin: auto;
+    text-align: center; } }
+
 main .tarjeta-oferta {
   margin-left: 150px;
   border: 2px solid black;
@@ -89,7 +136,8 @@ main .tarjeta-oferta {
   border-radius: 8px;
   padding: 20px;
   width: 300px;
-  display: inline-table; }
+  display: inline-block;
+  margin-inline-start: 400px; }
 
 main .tarjeta-oferta img {
   width: 100%;
@@ -106,13 +154,21 @@ main .tarjeta-oferta button {
   color: #0c0707;
   padding: 12px 20px; }
 
+@media (max-width: 576px) {
+  main .tarjeta-oferta {
+    margin-left: none;
+    margin-inline-start: 40px;
+    align-items: center; } }
+
 main .tarjeta-album {
+  margin-left: 120px;
+  margin-bottom: 100px;
   border: 2px solid black;
   /* borde */
   border-radius: 8px;
-  padding: 20px;
-  width: 300px;
-  display: inline-table; }
+  padding: 20px 20px;
+  width: 400px;
+  display: inline-block; }
 
 main .tarjeta-album img {
   width: 100%;
@@ -124,7 +180,12 @@ main .tarjeta-album .precio {
 main .tarjeta-album button {
   background-color: rgba(227, 235, 124, 0.877);
   color: #0c0707;
-  padding: 12px 20px; }
+  padding: 20px 20px; }
+
+@media (max-width: 576px) {
+  main .tarjeta-album {
+    margin-left: 35px;
+    width: 300px; } }
 
 main .rsd-titulo {
   margin: auto;
@@ -143,8 +204,16 @@ main .rsd-parrafo {
 
 main .rsd-imagen {
   margin: auto;
-  width: 10%;
-  padding: 10px; }
+  width: 10%; }
+
+@media (max-width: 576px) {
+  main {
+    /* RSD */ }
+    main .rsd-parrafo {
+      margin: 15px 15px 15px 15px;
+      font-size: 14; }
+    main .sn-imagen {
+      display: none; } }
 
 main .sn-titulo {
   margin: auto;
@@ -199,3 +268,16 @@ main .texto-cierre {
   font-size: 19;
   font-weight: bold;
   height: 100px; }
+
+@media (max-width: 576px) {
+  main .box-imagenes {
+    display: flex;
+    flex-direction: column;
+    width: 50%; }
+  main .imagenes-bienvenida {
+    width: 100%;
+    margin-left: 80px; }
+  main .texto-bienvenida {
+    margin-bottom: 50px; }
+  main .texto-cierre {
+    margin: 15px 15px 15px 15px; } }
