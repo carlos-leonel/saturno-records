@@ -1,7 +1,8 @@
 main{
+    background-color: rgb(255, 248, 255);
         
         .tarjeta-oferta{
-                
+                background-color: rgb(255, 255, 255);
                 margin-left: 150px;
                 border: 2px solid black; /* borde */
                 border-radius: 8px;
@@ -16,6 +17,7 @@ main{
                 .tarjeta-oferta img{
                     width: 100%;
                     border-radius: 8px;
+                    
                 }
                 
                 .tarjeta-oferta .precio-anulado{
@@ -30,6 +32,7 @@ main{
                     background-color: rgba(227, 235, 124, 0.877);
                     color: rgb(12, 7, 7);
                     padding: 12px 20px;
+                    border-color: yellow;
                 }
     @media (max-width: 576px){
         
